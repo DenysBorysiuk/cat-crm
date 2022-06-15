@@ -74,6 +74,7 @@ body {
 
 .section {
 	padding-top: 94px;
+	padding-bottom: 94px;
 }
 
 .section-title {
@@ -82,7 +83,7 @@ body {
 	line-height: 1.16;
 	text-align: center;
 	margin-top: 0;
-	margin-bottom: 0;
+	margin-bottom: 50px;
 }
 
 .logo {
@@ -219,12 +220,14 @@ body {
 
 /* doing */
 
+.doing {
+	padding-top: 0px;
+}
+
 .doing-list,
 .team-list {
 	display: flex;
 	justify-content: space-between;
-	padding-top: 50px;
-	padding-bottom: 94px;
 }
 
 /* team section */
