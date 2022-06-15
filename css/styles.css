@@ -33,8 +33,6 @@ body {
 .container {
 	margin: 0 auto;
 	max-width: 1170px;
-	/* Размер контейнера не зависимо от отступов */
-	box-sizing: border-box;
 }
 
 .list {
