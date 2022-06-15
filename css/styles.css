@@ -320,7 +320,6 @@ body {
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
-	padding-bottom: 94px;
 }
 
 .project-item {
