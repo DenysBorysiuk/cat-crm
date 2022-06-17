@@ -32,7 +32,7 @@ body {
 
 .container {
 	margin: 0 auto;
-	max-width: 1170px;
+	max-width: 1200px;
 }
 
 .list {
@@ -113,12 +113,12 @@ body {
 
 .header-logo {
 	color: var(--logo-color);
-	padding-left: 0;
 }
 
 .nav-list {
 	display: flex;
-	padding-left: 53px;
+	justify-content: flex-start;
+	/* padding-left: 53px; */
 }
 
 .nav-item {
@@ -127,8 +127,7 @@ body {
 
 .header-list {
 	display: flex;
-	padding-left: 305px;
-	padding-right: 0;
+	/* padding-left: 305px; */
 }
 
 .nav-item,
@@ -318,17 +317,16 @@ body {
 
 .project-list {
 	display: flex;
-	justify-content: space-between;
+	/* justify-content: space-between; */
 	flex-wrap: wrap;
+	gap: 30px;
 }
 
 .project-item {
 	background: #ffffff;
 	border: 1px solid #eeeeee;
-	min-width: 370px;
-	min-height: 404px;
-	margin: 0;
-	margin-bottom: 30px;
+	width: 370px;
+	height: 404px;
 }
 
 .project-item:hover,
