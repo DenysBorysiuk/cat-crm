@@ -122,24 +122,26 @@ body {
 	border-bottom: 1px solid #ececec;
 	padding-top: 25px;
 	padding-bottom: 25px;
+	background-color: var(--main-light);
 }
 
 .header > .container {
 	display: flex;
 	align-items: center;
-	background-color: var(--main-light);
 }
 
 .header-logo {
 	color: var(--logo-color);
 }
 
-.nav {
-	margin-left: 93px;
+.main-nav {
+	display: flex;
+	align-items: center;
 }
 
 .nav-list {
 	display: flex;
+	margin-left: 93px;
 }
 
 .nav-item:nth-child(n + 2) {
@@ -221,16 +223,18 @@ body {
 .about-list {
 	display: flex;
 	justify-content: space-between;
-	flex-wrap: wrap;
+	/* flex-wrap: wrap; */
 }
 
 .about-title {
+	margin-top: 30px;
 	font-size: 14px;
 	line-height: 1.14;
 	text-transform: uppercase;
 }
 
 .about-text {
+	margin-top: 10px;
 	line-height: 1.71;
 	color: var(--secondary-font-color);
 	width: 270px;
