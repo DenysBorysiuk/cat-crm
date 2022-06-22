@@ -175,6 +175,7 @@ body {
 	background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/bg.jpg);
 	background-position: center;
 	background-size: cover;
+	text-align: center;
 }
 
 .hero-title {
@@ -189,7 +190,6 @@ body {
 	margin-right: auto;
 	margin-bottom: 30px;
 	margin-left: auto;
-	text-align: center;
 }
 
 .hero-button {
