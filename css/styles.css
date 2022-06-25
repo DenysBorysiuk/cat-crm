@@ -177,11 +177,10 @@ body {
 
 .hero {
   background: #2f303a;
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url(../images/bg.jpg);
-  background-position: center;
-  background-size: cover;
   text-align: center;
+
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero-title {
@@ -192,11 +191,7 @@ body {
   text-transform: uppercase;
   color: var(--main-light);
 
-  width: 696px;
-  padding-top: 200px;
-  margin-right: auto;
   margin-bottom: 30px;
-  margin-left: auto;
 }
 
 .hero-button {
@@ -218,7 +213,6 @@ body {
 .hero-btn-wrapper {
   display: flex;
   justify-content: center;
-  padding-bottom: 200px;
 }
 
 .hero-button:hover,
@@ -226,27 +220,26 @@ body {
   background-color: var(--hero-btn);
 }
 
-/* about section */
+/* advantages section */
 
-.about-list {
+.advantages-list {
   display: flex;
   justify-content: space-between;
 }
 
-.about-title {
+.advantages-title {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
 
-  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
-.about-text {
+.advantages-text {
   line-height: 1.71;
   color: var(--secondary-font-color);
 
   width: 270px;
-  margin-top: 10px;
 }
 
 /* doing */
@@ -272,7 +265,7 @@ body {
 }
 
 .team-item-content {
-  margin: 30px 60px;
+  padding: 30px 60px;
 }
 
 .team-title {
@@ -300,14 +293,15 @@ body {
 .footer-logo-text {
   color: var(--main-light);
 }
+.footer-logo {
+  display: block;
+  margin-bottom: 20px;
+}
 
 .address-item {
   text-decoration: none;
   line-height: 1.7;
   color: var(--main-light);
-
-  display: block;
-  padding-top: 20px;
 }
 
 .footer-item {
@@ -398,5 +392,5 @@ body {
 }
 
 .projects-card-content {
-  margin: 20px;
+  padding: 20px;
 }
